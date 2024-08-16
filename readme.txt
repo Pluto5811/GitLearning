@@ -40,3 +40,8 @@ git push -u origin master
 如果添加的时候地址写错了，或者就是想删除远程库，可以用git remote rm <name>命令。使用前，建议先用git remote -v查看远程库信息：
 
 git checkout -b 'dev'
+
+git branch dev
+git checkout dev
+
+git branch
