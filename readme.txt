@@ -70,3 +70,11 @@ dsadasdasdasgit
 git checkout -b nmy
 git swtich dev
 git merge nmy
+
+
+
+工作现场还在，Git把stash内容存在某个地方了，但是需要恢复一下，有两个办法：
+
+一是用git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除；
+
+另一种方式是用git stash pop，恢复的同时把stash内容也删了：
